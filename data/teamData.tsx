@@ -1,0 +1,88 @@
+import SylhetTitans from '@/public/images/teams/Sylhet Titans.jpg';
+import ChattogramRoyals from '@/public/images/teams/Chattogram Royals.jpg';
+import DhakaCapitals from '@/public/images/teams/Dhaka Capitals.jpg';
+import NoakhaliExpress from '@/public/images/teams/Noakhali Express.jpg';
+import RajshahiWarriors from '@/public/images/teams/Rajshahi Warriors.jpg';
+import RangpurRiders from '@/public/images/teams/Rangpur Riders.png';
+
+
+export const teamsData= [
+  {
+    id: 'noakhali-express',
+    teamName: "Noakhali Express",
+    logo: `${NoakhaliExpress.src}`, 
+    captain: "Soumya Sarkar",
+    coach: "Khaled Mahmud Sujon",
+    owner: "Desh Travels, a transportation company which secured a five-year agreement",
+    nplWin: 0,
+    venue: "Shaheed Bulu Stadium in Noakhali, Bangladesh",
+    website: "N/A",
+    profileLink: "/teams/noakhali-express/",
+    captainProfileLink: "/player/soumya-sarkar/profile/",
+  },
+  {
+    id: 'chattogram-royals',
+    teamName: "Chattogram Royals",
+    captain: "Mohammad Shoriful Islam",
+    logo: `${ChattogramRoyals.src}`,
+    coach: "Justin Kemp (Head Coach)",
+    owner: "Triangle Sports",
+    nplWin: 0,
+    venue: "Matiur Rahman Cricket Stadium, Chattogram",
+    website: "N/A",
+    profileLink: "/teams/chattogram-royals/",
+    captainProfileLink: "/player/mohammad-shoriful-islam/profile/",
+  },
+  {
+    id: 'rangpur-riders',
+    teamName: "Rangpur Riders",
+    logo: `${RangpurRiders.src}`,
+    captain: "Nurul Hasan Sohan",
+    coach: "Mickey Arthur (Head Coach)",
+    owner: "Bashundhara Group (Toggi Sports)",
+    nplWin: 0,
+    venue: "Sher-e-Bangla National Cricket Stadium",
+    website: "N/A",
+    profileLink: "/teams/rangpur-riders/",
+    captainProfileLink: "/player/nurul-hasan-sohan/profile/",
+  },
+  {
+    id: 'rajshahi-warriors',
+    teamName: "Rajshahi Warriors",
+    captain: "Najmul Hossain Shanto",
+    logo: `${RajshahiWarriors.src}`,
+    coach: "Hannan Sarkar (Head Coach)",
+    owner: "Nabil Group of Industries",
+    nplWin: 0,
+    venue: "Shaheed Qamaruzzaman Stadium",
+    website: "N/A",
+    profileLink: "/teams/rajshahi-warriors/",
+    captainProfileLink: "/player/najmul-hossain-shanto/profile/",
+  },
+  {
+    id: 'dhaka-capitals',
+    teamName: "Dhaka Capitals",
+    logo: `${DhakaCapitals.src}`,
+    captain: "Taskin Ahmed",
+    coach: "Toby Radford (Head Coach)",
+    owner: "Champions Sports Ltd. and Remark HB Limited",
+    nplWin: 0,
+    venue: "Sher-e-Bangla National Cricket Stadium, Dhaka",
+    website: "N/A",
+    profileLink: "/teams/dhaka-capitals/",
+    captainProfileLink: "/player/taskin-ahmed/profile/",
+  },
+  {
+    id: 'sylhet-titans',
+    teamName: "Sylhet Titans",
+    captain: "Mehidy Hasan Miraz",
+    logo: `${SylhetTitans.src}`,
+    coach: "Sohel Islam (Head Coach)",
+    owner: "(Mahedul Islam Sami)",
+    nplWin: 0,
+    venue: "Sylhet International Cricket Stadium, Sylhet",
+    website: "N/A",
+    profileLink: "/teams/sylhet-titans/",
+    captainProfileLink: "/player/mehidy-hasan-miraz/profile/",
+  },
+];
